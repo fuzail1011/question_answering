@@ -1,0 +1,6 @@
+streamlit
+transformers
+pdfplumber
+openpyxl
+python-docx
+torch
