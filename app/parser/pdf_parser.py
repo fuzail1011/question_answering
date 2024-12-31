@@ -8,5 +8,5 @@ def extract_text_from_pdf(file) -> str:
     text_content = ""
     with pdfplumber.open(file) as pdf:
         for page in pdf.pages:
-            text_content += page.extract_text() or ""
+            text_content += page.extract_text()
     return text_content
