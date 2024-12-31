@@ -6,3 +6,6 @@
 # Ignore Python bytecode files
 *.pyc
 __pycache__/
+
+# Debugger configs
+launch.json
