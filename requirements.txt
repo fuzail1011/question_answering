@@ -4,3 +4,6 @@ pdfplumber
 openpyxl
 python-docx
 torch
+langchain
+faiss-cpu
+sentence-transformers
