@@ -13,3 +13,17 @@ RAG setup using FAISS vector store for retrieval
    For Linux - `source venv/bin/activate`
 
 3. Run the command - `streamlit run main.py`
+
+## If you want to run the app through containerization with Docker, follow the steps below :
+
+1. Build the docker image <br>
+   `docker-compose up --build`
+
+2. Starting the container <br>
+   `docker-compose up`
+
+3. Stopping the container <br>
+   `docker-compose down`
+
+4. Access the app through the below link : <br>
+   `http://localhost:8501`
