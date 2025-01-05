@@ -3,8 +3,12 @@
 
 .idea
 
+.git
+.gitignore
+
 # Ignore Python bytecode files
 *.pyc
+*.pyo
 __pycache__/
 
 # Debugger configs
